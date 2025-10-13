@@ -31,9 +31,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+<<<<<<< HEAD
         className={`${geistSans.variable} ${geistMono.variable} ${sixtyfourSans.variable} antialiased`}
+=======
+        className={`bg-slate-800 min-w-44 ${sixtyfourSans.variable} antialiased`}
+>>>>>>> e2601414e773cac1cdf10365dc643017659130ab
       >
+        {/* <p>Antes</p> */}
         {children}
+        {/* <p>Después</p> */}
       </body>
     </html>
   );
