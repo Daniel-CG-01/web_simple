@@ -16,7 +16,7 @@ export default function CoreConceptsList() {
     </h1>
     <ul className="m-3 md:m-8 flex flex-col md:flex-row space-y-16 md:space-y-0 md:space-x-6">
       {/* <CoreConcepts title={CORE_CONCEPTS[0].title} description={CORE_CONCEPTS[0].description} image={CORE_CONCEPTS[0].image}/> */}
-      {CORE_CONCEPTS.map((cc) => <CoreConcepts title={cc.title} description={cc.description} image={cc.image}/>)}
+      {CORE_CONCEPTS.map((cc) => <CoreConcepts key={cc.title} {...cc}/>)}
     </ul>
     </section>
     </>

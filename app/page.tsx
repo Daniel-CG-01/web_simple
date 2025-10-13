@@ -6,12 +6,14 @@ import propsImg from '@/public/config.png';
 import stateImg from "@/public/state-mgmt.png";
 import CoreConcepts from "@/components/core-concepts";
 import CoreConceptsList from "@/components/core-concepts-list";
+import TabExampleSection from "@/components/Tab/tab-example-section";
 
 export default function Home() {
   return (
   <>
   <Header/>
   <CoreConceptsList/>
+  <TabExampleSection/>
   </>
   );
 }
