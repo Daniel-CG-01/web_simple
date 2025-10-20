@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+import React from 'react'
+import logoHeader from '@/public/react-core-concepts.png';
+import Image from 'next/image';
+
+export default function Header() {
+  return (
+    <>
+    <header>
+        <Image src={logoHeader} alt="React Concepts" width={150}/>
+        <div>Header</div>
+    </header>
+    </>
+=======
 import React from 'react';
 import logoHeader from '@/public/images/react-core-concepts.png';
 import Image from 'next/image';
@@ -13,5 +27,6 @@ export default function header() {
         Cuatro conceptos fundamentales para entender React
         </h2>
     </header>
+>>>>>>> e2601414e773cac1cdf10365dc643017659130ab
   )
 }

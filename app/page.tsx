@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+import React from 'react';
+import Header from '@/components/header';
+
+export default function Home() {
+  return (
+    <>
+    <Header />
+    <div className='font-sixtyfour'>Esta es la página principal</div>
+    </>
+=======
 import Image from "next/image";
 import Header from "@/components/header";
 import componentsImg from "@/public/components.png";
@@ -15,5 +26,6 @@ export default function Home() {
   <CoreConceptsList/>
   <TabExampleSection/>
   </>
+>>>>>>> e2601414e773cac1cdf10365dc643017659130ab
   );
 }

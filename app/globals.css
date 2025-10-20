@@ -10,6 +10,10 @@
 }
 
 @theme inline {
+  --font-sixtyfour: var(--font-sixtyfour), sans-serif;
+}
+
+@theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
