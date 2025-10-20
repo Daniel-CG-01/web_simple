@@ -1,23 +1,10 @@
-<<<<<<< HEAD
-import React from 'react'
-import logoHeader from '@/public/react-core-concepts.png';
-import Image from 'next/image';
-
-export default function Header() {
-  return (
-    <>
-    <header>
-        <Image src={logoHeader} alt="React Concepts" width={150}/>
-        <div>Header</div>
-    </header>
-    </>
-=======
 import React from 'react';
 import logoHeader from '@/public/images/react-core-concepts.png';
 import Image from 'next/image';
 
 export default function header() {
   return (
+    <>
     <header id='cabecera' className='flex flex-col items-center justify-center'>
         <Image src={logoHeader} alt="React Concepts" width={150}/>
         <h1 className='font-sixtyfour w-5/6 text-center text-3xl font-extrabold bg-gradient-to-r from-purple-700 to-violet-300 bg-clip-text text-transparent'>
@@ -27,6 +14,6 @@ export default function header() {
         Cuatro conceptos fundamentales para entender React
         </h2>
     </header>
->>>>>>> e2601414e773cac1cdf10365dc643017659130ab
+    </>
   )
 }

@@ -1,31 +1,19 @@
-<<<<<<< HEAD
-import React from 'react';
-import Header from '@/components/header';
-
-export default function Home() {
-  return (
-    <>
-    <Header />
-    <div className='font-sixtyfour'>Esta es la página principal</div>
-    </>
-=======
 import Image from "next/image";
 import Header from "@/components/header";
-import componentsImg from "@/public/components.png";
-import jsxImg from "@/public/jsx-ui.png";
-import propsImg from '@/public/config.png';
-import stateImg from "@/public/state-mgmt.png";
-import CoreConcepts from "@/components/core-concepts";
 import CoreConceptsList from "@/components/core-concepts-list";
 import TabExampleSection from "@/components/Tab/tab-example-section";
+import Dropdown from "@/components/dropdown";
 
 export default function Home() {
   return (
   <>
   <Header/>
+  <nav className="flex flex-col md:flex-row bg-violet-900 justify-center md:justify-between">
+    <Dropdown menuText="Hola"/>
+    <Dropdown menuText="Adiós"/>
+  </nav>
   <CoreConceptsList/>
   <TabExampleSection/>
   </>
->>>>>>> e2601414e773cac1cdf10365dc643017659130ab
   );
 }
